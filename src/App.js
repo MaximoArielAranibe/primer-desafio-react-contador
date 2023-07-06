@@ -8,6 +8,9 @@ function App() {
   }
   return (
     <div className="App">
+      <header className='suplementos_header'>
+        
+      </header>
       <ItemCount stock={10} initial={1} onAdd={onAdd} />
     </div>
   );
